@@ -1,0 +1,31 @@
+{
+  "homepage": {
+    "url": "http://materials.springer.com/",
+    "SearchTestPositive": [
+      {
+        "testName": "suggest Ethanol when Ethanol is entered",
+        "searchItem": "Ethanol"
+      },
+      {
+        "testName": "suggest text staring with but when but? is entered",
+        "searchItem": "but?"
+      },
+      {
+        "testName": "suggest text ending with bn when ?bn is entered",
+        "searchItem": "?bn"
+      },
+      {
+        "testName": "suggest text ending with nol when *nol is entered",
+        "searchItem": "*nol"
+      },
+      {
+        "testName": "suggest text staring with sul and ending with acid when sul*acid is entered",
+        "searchItem": "sul*acid"
+      },
+      {
+        "testName": "suggest Ethylene when Ethylene is entered",
+        "searchItem": "Ethylene"
+      }
+    ]
+  }
+}
